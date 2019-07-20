@@ -1,10 +1,5 @@
 <?php
-
-if(strpos($_SERVER["HTTP_USER_AGENT"], "facebookexternalhit/") !== false || strpos($_SERVER["HTTP_USER_AGENT"], "Facebot") !== false){
-	echo "Hello facebook bot";
-}
-else{
-	header("Location: https://www.facebook.com/centralparknyc");
-	die();
-}
+// PHP permanent URL redirection
+header("Location: https://www.ebay.com/itm/Motorcycle-GPS-Cellphone-Mount-Sun-Visor-Waterproof-Bike-Motorcycle-Accessories/352683802834?hash=item521d97c0d2:g:Dt0AAOSwAT5c9mUU", true, 301);
+exit();
 ?>
